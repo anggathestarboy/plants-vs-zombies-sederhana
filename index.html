@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKS PVZ - Main Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div class="input-container" id="inputContainer">
+        <label for="username">Enter your username:</label>
+        <input type="text" id="username" placeholder="Username">
+        <label for="level">Choose Level:</label>
+        <select id="level">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <div id="instructionPopup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close-btn">&times;</span>
+            <h2>How to Play</h2>
+            <p>1. Click "Play Game" to start the game.<br>2. Collect suns that fall from the sky.<br>3. Use suns to buy plants and place them on the field.<br>4. Defend your base from zombies!<br>5. If a zombie reaches your base, it's game over.<br></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
